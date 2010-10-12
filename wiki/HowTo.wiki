@@ -1,4 +1,4 @@
-#Contents and Intallation guide
+#summary Contents and Intallation guide
 
 = Contents =
 
