@@ -6,7 +6,9 @@
 
 *REngineFiles_opt.zip*: contains the REngine Cell configuration file, the Kaplan Meier jar file and the runtime folder used to store the i2b2 data
 
-*RECell_plugin.zip*: contains the REngine CEll i2b2 plug-in code
+*RECell_plugin.zip*: contains the REngine CEll i2b2 plug-in engine code
+
+*KaplanMeierStat_plugin.zip*: contains the Kaplan Meier web client plug-in
 
 *KMModule_source.zip*: contains the Kaplan Meier jar source files
 
