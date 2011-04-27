@@ -28,7 +28,8 @@ ant tomcat-deploy
   * `KMresultFolder`: the results folder into the i2b2 webclient plug-in
 *You need to have installed the R software (http://www.r-project.org/) and the jri libraries (http://www.rforge.net/JRI/)*
 
- * extract the RECell_plugin.zip contents unted your i2b2 webclient installation folder. e.g. `/var/www/i2b2/js-i2b2/cells` 
+ * extract the RECell_plugin.zip contents unted your i2b2 webclient installation folder. e.g. `/var/www/i2b2/js-i2b2` . This file allows new plug-ins to call the RECell functions.
+* extract the KaplanMeierStat_plugin.zip contents unted your i2b2 webclient installation folder. e.g. `/var/www/i2b2/js-i2b2/cells`. Register your web plug-in in the i2b2_loader.js file in your /var/www/i2b2/js-i2b2 folder.
 *In order to use the RECell plug-in you have to download jquery-1.4.1.min.js and include this script in the i2b2 webclient default.html page* 
 
 {{{
