@@ -19,7 +19,9 @@
 
 {{{
 ant -f master_build.xml build-all
-ant tomcat-deploy
+ant -f build.xml jboss_deploy
+
+[old version] ant -f build.xml tomcat-deploy
 }}}                
 
  * extract the REngineFiles_opt.zip contents into the /opt/REngineFiles folder. You con change this folder path modifying the `savingBaseDir` and `jarFile` suffix in the config.properties file. Verify the other properties in the config.properties file:
