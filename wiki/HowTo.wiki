@@ -28,7 +28,7 @@ ant tomcat-deploy
   * `jarFile`: runKManalysis.jar path
   * `R_HOME`: your R home
   * `KMresultFolder`: the results folder into the i2b2 webclient plug-in
-*You need to have installed the R software (http://www.r-project.org/) and the jri libraries (http://www.rforge.net/JRI/)*
+*You need to have installed the R software (http://www.r-project.org/) and the jri libraries (http://www.rforge.net/JRI/)
 
   * extract the RECell_plugin.zip contents unted your i2b2 webclient installation folder. e.g. `/var/www/i2b2/js-i2b2` . This file allows new plug-ins to call the RECell functions.
 
